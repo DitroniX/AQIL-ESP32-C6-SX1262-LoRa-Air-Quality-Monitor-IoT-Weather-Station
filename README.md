@@ -22,7 +22,7 @@ High Precision Digital Environmental Monitor Sensors.
 
 The **AQIL** board offers the following main features:
 
- - **Espressif ESP32-C6 U.FL**
+ - **Espressif ESP32-C6**
 	 - WiFi, Bluetooth, Zigbee and Thread
  - **EByte E22-900MM22S**
 	 - LoRa (LoRaWAN), SX1262 module for 850 MHz through to 930 MHz
@@ -33,7 +33,9 @@ The **AQIL** board offers the following main features:
  - **EEPROM P24C64C**
 	 - 64Kbit storage 
 
-Power can be via external 5 to 15V DC, or using a CR123A 3V Lithium battery.
+Power can be via external 5 to 15V DC, or using a CR123A 3V Lithium battery. CR123A Battery is not a rechargeable.
+
+This board could also be powered from a Solar Panel.
 
 ## Updates
 
