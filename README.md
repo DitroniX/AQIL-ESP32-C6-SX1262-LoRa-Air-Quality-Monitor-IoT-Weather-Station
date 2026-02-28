@@ -35,6 +35,9 @@ The **AQIL** board offers the following main features:
 -   **USB C**
 	 - With UART for easy programming and development
 	 - Board powering during development or use.
+-   **FET Output**
+	 - External Relay or Sounder.
+	 - GPIO or PWM
 -   **I2C Interface Display**
 	 - OLED Display
 -   **I2C Interface Sensors**
