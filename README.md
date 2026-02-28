@@ -31,7 +31,20 @@ The **AQIL** board offers the following main features:
  - **Bosch BME280**
 	 - High Precision Barometric Pressure, Relative Humidity and Temperature
  - **EEPROM P24C64C**
-	 - 64Kbit storage 
+	 - 64Kbit storage (logging and/or parameters)
+-   **USB C**
+	 - With UART for easy programming and development
+	 - Board powering during development or use.
+-   **I2C Interface Display**
+	 - OLED Display
+-   **I2C Interface Sensors**
+	 - External Sensors such as Soil Monitoring
+-   **3V3 LDO**
+	 - External 4.5 to 15V DC Input
+-   **LED**
+	 - RGB, Ext DC LED
+-   **Board Size**
+	 - 63 x 51mm
 
 Power can be via external 5 to 15V DC, or using a CR123A 3V Lithium battery. CR123A Battery is not a rechargeable.
 
