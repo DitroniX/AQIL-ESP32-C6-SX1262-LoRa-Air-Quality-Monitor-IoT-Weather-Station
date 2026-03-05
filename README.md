@@ -104,8 +104,16 @@ This board could also be powered from a Solar Panel.
 -   26-02-20 - In Beta Development 
 -   26-02-01 - Project Launched
 
-## Preliminary Information and Spec to follow 
 
+## **Purchase**
+
+Via our DitroniX.net [Shop](https://ditronix.net/shop/) 
+
+or this board will be added to eBay once in stock.
+
+[![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
+
+Our STEM SDK boards and accessories are available from our online shops on [eBay](https://www.ebay.co.uk/usr/ditronixuk) 
 
 ## **Further Information**
 
@@ -113,7 +121,7 @@ Additional information, and other technical details on this project, maybe found
 
 **Repository Folders**
 
- - **Code** *(Code examples for Arduino  IDE, PlatformIO)*
+ - **Code** *(Code examples for Arduino  IDE and PlatformIO)*
  -  **Datasheets and Information** *(Component Datasheets, Schematics, Board Layouts, Photos, Technical Documentation)*
  - **Certification** *(Related Repository Project or Part, Certification Information)*
 
@@ -141,3 +149,7 @@ Electronics Engineer | Software Developer | R&D Support | RF Engineering | Produ
 ## STEM
 
 **Supporting [STEM Learning](https://www.stem.org.uk/)**
+
+Life is one long exciting learning curve, help others by setting the seed to knowledge.
+
+![DitroniX Supporting STEM](https://hackster.imgix.net/uploads/attachments/1606838/stem_ambassador_-_100_volunteer_badge_edxfxlrfbc1_bjdqharfoe1_xbqi2KUcri.png?auto=compress%2Cformat&w=540&fit=max)
