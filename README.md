@@ -18,36 +18,82 @@ The Compact Weather IoT Monitor boards such as the [CWX](https://github.com/Ditr
 
 Taking the CWX and AQIX concept, a new LoRa enabled version has been designed.  This is called AQIL.
 
-High Precision Digital Environmental Monitor Sensors.  
+## Features
+
+High Precision Digital Environmental Monitor Sensors.
 
 The **AQIL** board offers the following main features:
 
- - **Espressif ESP32-C6**
-	 - WiFi, Bluetooth, Zigbee and Thread
- - **EByte E22-900MM22S**
-	 - LoRa (LoRaWAN), SX1262 module for 850 MHz through to 930 MHz
- - **Sensirion SCD40 or SCD41**
-	 - High Accuracy CO2 Sensor
- - **Bosch BME280**
-	 - High Precision Barometric Pressure, Relative Humidity and Temperature
- - **EEPROM P24C64C**
-	 - 64Kbit storage (logging and/or parameters)
+-   **Espressif ESP32-C6**
+    -   WiFi, Bluetooth, Zigbee and Thread
+-   **EByte E22-900MM22S**
+    -   LoRa (LoRaWAN), SX1262 module for 850 MHz through to 930 MHz
+-   **Sensirion SCD40 or SCD41**
+    -   High Accuracy CO2 Sensor
+    -   [SCD40](https://sensirion.com/products/catalog/SCD40)  – 400 to 2000 ppm, Accuracy ±50.0 ppm ±5.0 %m.v (Home)
+    -   [SCD40](https://sensirion.com/products/catalog/SCD41)  – 400 to 5000 ppm, Accuracy ±50.0 ppm ±2.5 %m.v (Home, Office, Industry)
+-   **Bosch BME280**
+    -   High Precision Barometric Pressure, Relative Humidity and Temperature
+    -   **Barometric Pressure** 300…1100 hPa (millibar)
+        – Accuracy ±0.25%
+        – which is equivalent to 1m at 400m height change
+        – RMS Noise 0.2 Pa
+        – which is equivalent to 1.7 cm
+        – **Temperature** -40 to 85°C
+        – Temperature coefficient offset ±1.5Pa/K.
+        – which is equivalent to ±12.6cm at 1 °C temperature change
+        – **Humidity**
+        – 0 to 100 %
+        – Accuracy tolerance ±3% relative humidity
+        – Hysteresis ≤2% relative humidity
+-   **Ambient Light Sensor**
+    -   SFH2440, providing spectral sensitivity adapted to human eye sensitivity
+    -   Std. Light A; T = 2856 K Minimum 7 nA/lx
+    -   Spectral range of sensitivity λ10% typically 400 to 690 nm
+    -   Wavelength of max sensitivity λS max typically 620 nm
+    -   ESP32-C6 ADC provides light voltage reading
+-   **EEPROM P24C64C**
+    -   64Kbit storage
+    -   AT24C64 64Kbit
+    -   On-board Data Logging
+    -   On-board Parameters
+    -   Firmware setup user parameters and configuration
 -   **USB C**
-	 - With UART for easy programming and development
-	 - Board powering during development or use.
+    -   With UART for easy programming and development
+    -   Board powering during development or use.
+    -   Type C USB Connector
+    -   CH340K USB UART 2Mbps Transceiver
+    -   Easy programming. Select ‘ESP32C3 Dev Module’
+    -   BAUD rate up to 921600 to speed up Flashing
+    -   Serial Monitoring Debug and Remote Logging
+    -   Power Can Be Taken from USB 5V (when Flashing).
 -   **FET Output**
-	 - External Relay or Sounder.
-	 - GPIO or PWM
+    -   External Relay or Sounder.
+    -   GPIO or PWM
+-   **OneWire (Dallas) Interface**
+    -   External Sensors such as Soil Temperature Probe (DS18S20)
+    -   Dallas OneWire Interface for External Temperatures
 -   **I2C Interface Display**
-	 - OLED Display
+    -   OLED Display
+    -   PCB 4 Pin Header Connector
 -   **I2C Interface Sensors**
-	 - External Sensors such as Soil Monitoring
+    -   External Sensors such as Soil Monitoring
+    -   PCB 4 Pin Header Connector
+-   **Buttons**
+    -   Reset
+    -   User (Program or GP9 Detect)
+-   **Battery Voltage Monitor**
+    -   ESP32-C6 ADC provides battery voltage reading
 -   **3V3 LDO**
-	 - External 4.5 to 15V DC Input
+    -   AMS1117 LDO allowing use of external DC input 4.5V to 15V
 -   **LED**
-	 - RGB, Ext DC LED
--   **Board Size**
-	 - 63 x 51mm
+    -   RGB, Ext DC LED
+-   **Compact Design and Easy to Use**
+    -   Board Size63 x 51mm
+    -   4 x M3 mounting holes
+    -   Operating Ambient Temperature -10 to +60 °
+    -   Optional Conformal Coating – on request.
+    -   Designed to fit into a Waterproof Clear Cover Enclosure
 
 Power can be via external 5 to 15V DC, or using a CR123A 3V Lithium battery. CR123A Battery is not a rechargeable.
 
