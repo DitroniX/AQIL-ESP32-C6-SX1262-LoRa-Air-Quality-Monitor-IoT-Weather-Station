@@ -101,6 +101,7 @@ This board could also be powered from a Solar Panel.
 
 ## Updates
 
+-   26-03-12 - Preproduction boards test complete.  Production being scheduled this month.
 -   26-03-02 - Preproduction boards in test.
 -   26-02-20 - In Beta Development 
 -   26-02-01 - Project Launched
