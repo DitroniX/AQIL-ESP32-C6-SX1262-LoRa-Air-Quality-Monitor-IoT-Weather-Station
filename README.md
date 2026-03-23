@@ -10,7 +10,7 @@
 ![AQIL Features Preview](https://github.com/DitroniX/AQIL-ESP32-C6-SX1262-LoRa-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIL%20-%20Features.png)
 
 
-**NEW SDK BOARD** - Availability planned for March 2026.
+**NEW SDK BOARD** - Now in Stock.
 
 ## History
 
