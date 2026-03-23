@@ -101,6 +101,7 @@ This board could also be powered from a Solar Panel.
 
 ## Updates
 
+-   26-03-23 - Boards in stock for purchase.  Initially the SCD41 400 to 5000 ppm, high accuracy variant.
 -   26-03-12 - Preproduction boards test complete.  Production being scheduled this month.
 -   26-03-02 - Preproduction boards in test.
 -   26-02-20 - In Beta Development 
@@ -111,7 +112,7 @@ This board could also be powered from a Solar Panel.
 
 Via our DitroniX.net [Shop](https://ditronix.net/shop/) 
 
-or this board will be added to eBay once in stock.
+Via [eBay](https://www.ebay.co.uk/usr/ditronixuk)   
 
 [![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
 
