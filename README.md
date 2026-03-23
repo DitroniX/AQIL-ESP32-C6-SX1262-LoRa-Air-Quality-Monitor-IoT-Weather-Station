@@ -7,6 +7,8 @@
 
 **AQIL** is an ESP32-C6 (2.4GHz), based SX1262 LoRa Air Quality Monitor IoT Weather Station
 
+STEM Educational | Home Automation | Hackster | LoRa Integration | Industrial Automation | Farming and Agriculture | Hydroponic Systems | Eco Farming
+
 ![AQIL Features](https://github.com/DitroniX/AQIL-ESP32-C6-SX1262-LoRa-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIL%20-%20ESP32-C6%20SX1262%20LoRa%20Air%20Quality%20Monitor%20IoT%20Weather%20Station.png)
 
 ![AQIL Board](https://github.com/DitroniX/AQIL-ESP32-C6-SX1262-LoRa-Air-Quality-Monitor-IoT-Weather-Station/blob/main/Datasheets%20and%20Information/AQIL%20ESP32-C6%20SX1262%20LoRa%20Air%20Quality%20Monitor%20IoT%20Weather%20Station%20Board.png)
