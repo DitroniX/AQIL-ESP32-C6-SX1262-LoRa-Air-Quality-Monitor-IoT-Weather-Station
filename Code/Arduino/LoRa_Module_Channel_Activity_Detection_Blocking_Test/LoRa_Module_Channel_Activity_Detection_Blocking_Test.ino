@@ -33,16 +33,13 @@
 /*
   RadioLib SX126x Blocking Channel Activity Detection Example
 
-  This example uses SX1262 to scan the current LoRa
-  channel and detect ongoing LoRa transmissions.
-  Unlike SX127x CAD, SX126x can detect any part
-  of LoRa transmission, not just the preamble.
+  This example uses SX1262 to scan the current LoRa channel and detect ongoing LoRa transmissions.
+
+  Unlike SX127x CAD, SX126x can detect any part of LoRa transmission, not just the preamble.
 
   Other modules from SX126x family can also be used.
 
-  Using blocking CAD is not recommended, as it will lead
-  to significant amount of timeouts, inefficient use of processor
-  time and can some miss packets!
+  Using blocking CAD is not recommended, as it will lead to significant amount of timeouts, inefficient use of processor time and can some miss packets!
   Instead, interrupt CAD is recommended.
 
   For default module settings, see the wiki page
@@ -111,7 +108,7 @@ void setup() {
 
 // **************** LOOP ****************
 void loop() {
-  Serial.print(F("[SX1262] Scanning channel for LoRa transmission ... "));
+  Serial.print(F("[SX1262] Scanning channel for LoRa transmission ... Channel Activity Detection (CAD)"));
   digitalWrite(LED_Green, HIGH);
 
   // start scanning current channel

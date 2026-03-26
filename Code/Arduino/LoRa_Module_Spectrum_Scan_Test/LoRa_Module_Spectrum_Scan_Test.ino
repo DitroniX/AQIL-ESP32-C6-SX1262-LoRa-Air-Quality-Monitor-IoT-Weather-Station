@@ -34,17 +34,17 @@
   RadioLib SX126x Spectrum Scan Example
 
   This example shows how to perform a spectrum power scan using SX126x.
+
   The output is in the form of scan lines, each line has 33 power bins.
+
   First power bin corresponds to -11 dBm, the second to -15 dBm and so on.
-  Higher number of samples in a bin corresponds to more power received
-  at that level.
+
+  Higher number of samples in a bin corresponds to more power received at that level.
 
   To show the results in a plot, run the Python script
   RadioLib/extras/SX126x_Spectrum_Scan/SpectrumScan.py
 
-  WARNING: This functionality is experimental and requires a binary patch
-  to be uploaded to the SX126x device. There may be some undocumented
-  side effects!
+  WARNING: This functionality is experimental and requires a binary patch to be uploaded to the SX126x device. There may be some undocumented side effects!
 
   For default module settings, see the wiki page
   https://github.com/jgromes/RadioLib/wiki/Default-configuration#sx126x---lora-modem
